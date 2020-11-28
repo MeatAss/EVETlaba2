@@ -1,0 +1,272 @@
+header {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #44372f, #1b1a1c);
+}
+
+.main_content {
+    margin: 40px 20%;
+    height: 100%;
+}
+
+.header_label {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+}
+
+.header_label h2 {
+    margin: 0;
+    color: #f1cdb3
+}
+
+.header_label p {
+    margin: 0;
+    color: #ffffff
+}
+
+.header_label ul {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0;
+    right: 0;
+}
+
+.header_label li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+    color: #ffffff;
+}
+
+.header_label li:hover {
+    text-decoration: underline;
+    text-decoration-color: #f1cdb3;
+}
+
+.header_content {
+    position: relative;
+    height: 700px;
+}
+
+.header_content img {
+    position: absolute;
+    height: 700px;
+    right: 0;
+}
+
+.header_content .info {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0;
+    width: 50%;
+}
+
+.header_content .info h2 {
+    width: 40%;
+    color: white;
+}
+
+.header_content .info p {
+    color: white;
+}
+
+.header_content .info button {
+    background-color: #fddcc4;
+    border-radius: 35px;
+    border: 2px solid #fddcc4;
+    height: 50px;
+    width: 200px;
+}
+
+
+.about_as {
+    position: relative;
+}
+
+.about_as img {
+    width: 300px;
+    height: 408px;
+    display: inline-block;
+}
+
+.about_as .info {
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.slider_info {
+    position: relative;
+}
+
+.slider_info h2 {
+    text-align: center;
+    color: #545454;
+    margin: 50px 0;
+}
+
+.slider_info .slider {
+    position: relative;
+    text-align: center;
+}
+
+.slider_info .slider .content {
+    width: 260px;
+    text-align: center;
+    background-color: #fafafa;
+    display: inline-block;
+}
+
+.slider_info .slider .content img {
+    width: 250px;
+    height: 250px;
+}
+
+.slider_info .slider .content button {
+    background-color: #fddcc4;
+    border-radius: 35px;
+    border: 2px solid #fddcc4;
+    height: 50px;
+    width: 200px;
+}
+
+.slider_info .slider .navigation {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #fddcc4;
+}
+
+.slider_info .slider .navigation:hover {
+    background-color: #f1cdb3;
+}
+
+.slider_info .slider .navigation img {
+    width: 15px;
+    height: 7px;
+}
+
+.slider_info .main_button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #fddcc4;
+    border-radius: 35px;
+    border: 2px solid #fddcc4;
+    height: 50px;
+    width: 200px;
+    margin: 50px 0
+}
+
+.icon_helper {
+    position: relative;
+    text-align: center;
+}
+
+.icon_helper h2 {
+    text-align: center;
+    color: #545454;
+}
+
+.icon_helper img {
+    width: 166px;
+    height: 111px;
+    display: inline-block;
+    margin: 30px 5px;
+}
+
+.donation_helper {
+    position: relative;
+}
+
+.donation_helper img {
+    width: 505px;
+    height: 261px;
+    display: inline-block;
+}
+
+.donation_helper .info {
+    width: 40%;
+    display: inline-block;
+}
+
+.donation_helper .info button {
+    border-radius: 15px;
+    height: 50px;
+    background: #fddcc4 url('images/donate-card.png') no-repeat left;
+    border: 2px solid #fddcc4;
+    padding-left: 40px;
+    font-size: medium;
+}
+
+.donation_helper .info .more_info {
+    color: gray;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #44372f, #1b1a1c);
+}
+
+footer .main_content {
+    position: relative;
+    margin: 0 20%;
+    padding-top: 60px;
+    height: 350px;
+}
+
+footer .main_content .dog {
+    position: absolute;
+    height: 350px;
+    right: 0;
+}
+
+footer .main_content .info {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0;
+}
+
+footer .main_content .info .info_block {
+    width: 43%;
+    display: inline-block;
+}
+
+footer .main_content .info .info_block h2 {
+    color: #ffffff
+}
+
+footer .main_content .info .info_block .contact {
+    position: relative;
+    height: 26px;
+    margin: 25px 0;
+}
+
+footer .main_content .info .info_block img {
+    width: 42px;
+    height: 26px;
+}
+
+footer .main_content .info .info_block p {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 42px;
+    padding-left: 15px;
+    color: #f1cdb3;
+    margin: 0;
+}
