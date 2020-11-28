@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>shelter</title>
+    <style>
+        li:hover {
+            text-decoration: underline;
+            text-decoration-color: #f1cdb3;
+        }
+
+        .petsinfo {
+            width: 200px;
+            text-align: center;
+            background-color: #fafafa;
+            display: inline-block;
+            margin: 30px 10px;
+        }
+
+        .petsinfo img {
+            width: 190px;
+            height: 190px
+        }
+
+        .navigationbutton {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border-radius: 50%;
+            display: inline-block;
+            background-color: transparent;
+            border-color: #f1cdb3;
+            margin: 0 5px;
+        }
+
+        .navigationbuttonactive {
+            background-color: #f1cdb3 !important;
+        }
+    </style>
+</head>
+<body>
+<header style="
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to right, #44372f, #1b1a1c);">
+
+    <div style="margin-left: 20%; margin-right: 20%; height: 100%;">
+
+        <div style="position: relative; margin-top: 60px; width: 100%; height: 100%;">
+            <h2 style="margin: 0; color: #f1cdb3">Cozy House</h2>
+            <p style="margin: 0; color: #ffffff">Shelter for pets in Boston</p>
+
+            <div style="position: absolute; top: 50%; transform: translate(0, -50%); margin: 0; right: 0">
+                <ul>
+                    <li style="display: inline; margin-right: 5px; padding: 3px; color: #ffffff">About the shelter</li>
+                    <li style="display: inline; margin-right: 5px; padding: 3px; color: #ffffff">Our pets</li>
+                    <li style="display: inline; margin-right: 5px; padding: 3px; color: #ffffff">To help the shelter
+                    </li>
+                    <li style="display: inline; margin-right: 5px; padding: 3px; color: #ffffff">Contacts</li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="position: relative; height: 700px">
+            <img style="position: absolute; height: 700px; right: 0" src="images/header-dog.png" alt="header-dog">
+            <div style="position: absolute; top: 50%; transform: translate(0, -50%); margin: 0; width: 50%">
+                <h2 style="width: 40%">Not only people need a house</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida est in porttitor porttitor.
+                    Duis sodales elementum ipsum, vehicula condimentum erat fringilla et.</p>
+                <button style="background-color: #fddcc4; border-radius: 35px; height: 50px; width: 200px">Make a
+                    friend
+                </button>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<div style="margin-left: 20%; margin-right: 20%; padding: 40px 0; height: 100%;">
+    <h2 style="text-align: center; color: #545454; margin: 50px 0">
+        Our friends who<br>are looking for a house
+    </h2>
+    <div style="position: relative; text-align: center;">
+        <div class="petsinfo">
+            <img src="images/pets/slider-one.png" alt="Katrin">
+            <p>Katrin</p>
+            <button style="background-color: #fddcc4; border-radius: 35px; height: 50px; width: 200px">
+                Learn More
+            </button>
+        </div>
+
+        <div class="petsinfo">
+            <img src="images/pets/slider-two.png" alt="Jenifer">
+            <p>Jenifer</p>
+            <button style="background-color: #fddcc4; border-radius: 35px; height: 50px; width: 200px">
+                Learn More
+            </button>
+        </div>
+
+        <div class="petsinfo">
+            <img src="images/pets/slider-three.png" alt="Woody">
+            <p>Woody</p>
+            <button style="background-color: #fddcc4; border-radius: 35px; height: 50px; width: 200px">
+                Learn More
+            </button>
+        </div>
+
+        <div class="petsinfo">
+            <img src="images/pets/slider-four.png" alt="Sophia">
+            <p>Sophia</p>
+            <button style="background-color: #fddcc4; border-radius: 35px; height: 50px; width: 200px">
+                Learn More
+            </button>
+        </div>
+
+        <div class="petsinfo">
+            <img src="images/pets/slider-five.png" alt="Timmy">
+            <p>Timmy</p>
+            <button style="background-color: #fddcc4; border-radius: 35px; height: 50px; width: 200px">
+                Learn More
+            </button>
+        </div>
+
+        <div class="petsinfo">
+            <img src="images/pets/slider-six.png" alt="Charly">
+            <p>Charly</p>
+            <button style="background-color: #fddcc4; border-radius: 35px; height: 50px; width: 200px">
+                Learn More
+            </button>
+        </div>
+
+        <div class="petsinfo">
+            <img src="images/pets/slider-seven.png" alt="Scarlet">
+            <p>Scarlet</p>
+            <button style="background-color: #fddcc4; border-radius: 35px; height: 50px; width: 200px">
+                Learn More
+            </button>
+        </div>
+
+        <div class="petsinfo">
+            <img src="images/pets/slider-eight.png" alt="Freddie">
+            <p>Freddie</p>
+            <button style="background-color: #fddcc4; border-radius: 35px; height: 50px; width: 200px">
+                Learn More
+            </button>
+        </div>
+    </div>
+    <div style="position: relative; text-align: center; width: 100%">
+        <button class="navigationbutton navigationbuttonactive">1</button>
+        <button class="navigationbutton">2</button>
+        <button class="navigationbutton">3</button>
+        <p style="display: inline-block; color: #f1cdb3">...</p>
+        <button class="navigationbutton">10</button>
+    </div>
+</div>
+
+<footer style="
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to right, #44372f, #1b1a1c);">
+
+    <div style="position: relative; margin: 0 20%; padding-top: 60px; height: 350px;">
+        <img style="position: absolute; height: 350px; right: 0" src="images/footer-dog.png" alt="dog">
+
+        <div style="position: absolute; top: 50%; transform: translate(0, -50%); margin: 0">
+            <div style="width: 43%; display: inline-block;">
+                <h2 style="color: #ffffff">For questions and suggestions</h2>
+                <div style="position: relative; height: 26px; margin: 25px 0">
+                    <img style="width: 42px; height: 26px" src="images/mail.png" alt="mail">
+                    <p style="
+								position: absolute; 
+								top: 50%; 
+								transform: translate(0, -50%); 
+								margin: 0; 
+								left: 42px;
+								margin-left: 15px;
+								color: #f1cdb3;">
+                        email@shelter.com
+                    </p>
+                </div>
+
+                <div style="position: relative; height: 26px; margin: 25px 0">
+                    <img style="width: 42px; height: 26px" src="images/contact.png" alt="contact">
+                    <p style="
+								position: absolute; 
+								top: 50%; 
+								transform: translate(0, -50%); 
+								margin: 0; 
+								left: 42px;
+								margin-left: 15px;
+								color: #f1cdb3;">
+                        +13 674 567 75 54
+                    </p>
+                </div>
+            </div>
+
+            <div style="width: 43%; display: inline-block;">
+                <h2 style="color: #ffffff">We are waiting for your visit</h2>
+                <div style="position: relative; height: 26px; margin: 25px 0">
+                    <img style="width: 42px; height: 26px" src="images/mail.png" alt="mail">
+                    <p style="
+								position: absolute; 
+								top: 50%; 
+								transform: translate(0, -50%); 
+								margin: 0; 
+								left: 42px;
+								margin-left: 15px;
+								color: #f1cdb3;">
+                        Boston, Central Street, 1st<br>(Entrance from the store)
+                    </p>
+                </div>
+
+                <div style="position: relative; height: 26px; margin: 25px 0">
+                    <img style="width: 42px; height: 26px" src="images/contact.png" alt="contact">
+                    <p style="
+								position: absolute; 
+								top: 50%; 
+								transform: translate(0, -50%); 
+								margin: 0; 
+								left: 42px;
+								margin-left: 15px;
+								color: #f1cdb3;">
+                        London, South Park, 18st
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
