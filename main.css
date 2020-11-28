@@ -1,32 +1,32 @@
+.main_content {
+    margin: 40px 20%;
+    height: 100%;
+}
+
 header {
     width: 100%;
     height: 100%;
     background: linear-gradient(to right, #44372f, #1b1a1c);
 }
 
-.main_content {
-    margin: 40px 20%;
-    height: 100%;
-}
-
-.header_label {
+header .header_label {
     position: relative;
     margin-top: 60px;
     width: 100%;
     height: 100%;
 }
 
-.header_label h2 {
+header .header_label h2 {
     margin: 0;
     color: #f1cdb3
 }
 
-.header_label p {
+header .header_label p {
     margin: 0;
     color: #ffffff
 }
 
-.header_label ul {
+header .header_label ul {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -34,30 +34,30 @@ header {
     right: 0;
 }
 
-.header_label li {
+header .header_label li {
     display: inline;
     margin-right: 5px;
     padding: 3px;
     color: #ffffff;
 }
 
-.header_label li:hover {
+header .header_label li:hover {
     text-decoration: underline;
     text-decoration-color: #f1cdb3;
 }
 
-.header_content {
+header .header_content {
     position: relative;
     height: 700px;
 }
 
-.header_content img {
+header .header_content img {
     position: absolute;
     height: 700px;
     right: 0;
 }
 
-.header_content .info {
+header .header_content .info {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -65,23 +65,22 @@ header {
     width: 50%;
 }
 
-.header_content .info h2 {
+header .header_content .info h2 {
     width: 40%;
     color: white;
 }
 
-.header_content .info p {
+header .header_content .info p {
     color: white;
 }
 
-.header_content .info button {
+header .header_content .info button {
     background-color: #fddcc4;
     border-radius: 35px;
     border: 2px solid #fddcc4;
     height: 50px;
     width: 200px;
 }
-
 
 .about_as {
     position: relative;
